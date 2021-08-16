@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dob {
+  color: red;
+  padding: 1rem;
+}
+.luckynum {
+  color: green;
+  padding: 1rem;
+}
+
+.check {
+  padding: 1rem;
+}
