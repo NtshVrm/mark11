@@ -37,15 +37,17 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Is Your Birthday Lucky?</h1>
+      <div className="title">
+        <h1>Is Your Birthday Lucky?</h1>
+      </div>
 
       <div className="dob">
-        Enter Date of Birth:
+        ENTER DATE OF BIRTH:
         <input type="date" onChange={dateHandler}></input>
       </div>
 
       <div className="luckynum">
-        Enter your lucky number:
+        ENTER YOUR LUCKY NUMBER:
         <input onChange={luckynumHandler}></input>
       </div>
 

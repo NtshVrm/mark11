@@ -1,16 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1cd0d6;
+  --text-color: black;
+  --button-color: blue;
+  --width-break: 600px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#input-box {
+  padding: 1rem;
+}
+
+textarea {
+  box-sizing: border-box;
+  font-size: 30px;
+  width: 40%;
+  height: 5rem;
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.output-title {
+  font-size: xx-large;
+  /* margin:auto; */
+  padding: 0.5rem;
   text-align: center;
 }
-.dob {
-  color: red;
+
+button {
+  margin: 0.5rem;
   padding: 1rem;
+  background-color: var(--button-color);
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+#button-text {
+  font-family: "Roboto Mono", monospace;
+  font-size: larger;
+  /* color: var(--text-color); */
+  color: black;
+}
+
+.title {
+  color: white;
+  background-color: blue;
+  border-radius: 1rem;
+}
+
+.dob {
+  font-weight: bold;
+  color: red;
+  padding: 2rem;
 }
 .luckynum {
+  font-weight: bold;
   color: green;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .check {
   padding: 1rem;
+}
+input {
+  height: 2rem;
 }
